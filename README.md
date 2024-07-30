@@ -1,12 +1,15 @@
 # WebScraping
-Code Explanation
+Code Explanation:
 Overview
 This Python script utilizes Selenium and BeautifulSoup to scrape real estate listings from Realtor.com for properties in Los Angeles, CA. It automates the process of loading the webpage, scrolling to load more listings, and extracting relevant property information such as listing type, price, address, number of beds and baths, square footage, and lot size.
-Prerequisites
+Prerequisites:
+
 To run this script, ensure you have the following installed:
+
 Python 3.x
 Chrome WebDriver (compatible with your version of Chrome)
 Required Python packages:
+
 selenium
 pandas
 beautifulsoup4
@@ -17,10 +20,12 @@ Setup
 Download ChromeDriver:
 Download the ChromeDriver executable from ChromeDriver Downloads and place it in a known directory (e.g., C:\Program Files (x86)\chromedriver-win64\).
 Modify the Script:
+
 Update the path to the ChromeDriver executable in the script:
 python
 service = Service("C:\\Program Files (x86)\\chromedriver-win64\\chromedriver.exe")
 User-Agent Strings:
+
 The script randomly selects a user-agent string from a predefined list to mimic different browsers and avoid detection.
 Usage
 Run the Script:
